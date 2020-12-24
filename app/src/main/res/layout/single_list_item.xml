@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="@drawable/dark_bg"
+    android:layout_margin="16dp"
+    >
+
+    <ImageView
+
+        android:layout_margin="4dp"
+        android:id="@+id/list_img"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+         android:scaleType="centerCrop"
+        ></ImageView>
+
+      <TextView
+          android:id="@+id/list_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/list_img"
+          android:text="Quiz Title"
+          android:textColor="@color/colorPrimary"
+          android:textSize="26sp"
+          android:layout_marginLeft="33dp"
+          ></TextView>
+
+<TextView
+    android:id="@+id/list_desc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/list_title"
+    android:text="description"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    android:layout_marginLeft="33dp"
+    ></TextView>
+
+
+    <TextView
+        android:id="@+id/list_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/list_desc"
+        android:text="difficulty"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="33dp"
+        ></TextView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_difficulty"
+         android:layout_alignParentRight="true"
+      android:layout_marginTop="1dp"
+        android:layout_marginRight="22dp"
+        android:text="button"
+        android:id="@+id/list_btn"
+        android:background="@drawable/outline_btn"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="12dp"
+        ></Button>
+
+</RelativeLayout>
